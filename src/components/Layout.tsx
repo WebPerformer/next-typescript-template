@@ -1,5 +1,13 @@
 import Head from "next/head"
 
+// Font Style from Next Optimizing Fonts
+import { Poppins } from "next/font/google"
+const poppins = Poppins({
+  weight: ["200", "400", "600"],
+  style: "normal",
+  subsets: ["latin"]
+})
+
 export default function RootLayout({
     children,
 }: {
