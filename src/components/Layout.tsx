@@ -14,7 +14,7 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <div className="layout">
+        <div className={poppins.className}>
             <Head>
                 <title>Typescript Template</title>
             </Head>
